@@ -1,0 +1,31 @@
+
+config cloud_info 'azure'
+	option hostname '3333'
+	option deviceid '2221'
+	option saskey '123123'
+	option connectionString '1111111111111'
+
+config data_type 'deviceid'
+	option key 'device'
+	option type 'string'
+
+config data_type 'x'
+	option key 'x'
+	option type 'float'
+
+config data_type 'y'
+	option key 'y'
+	option type 'float'
+
+config data_type 'z'
+	option key 'z'
+	option type 'float'
+
+config end_device
+	option name 'tile.box'
+	option device '/dev/ttyACM0'
+	list data_list 'deviceid'
+	list data_list 'x'
+	list data_list 'y'
+	list data_list 'z'
+

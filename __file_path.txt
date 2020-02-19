@@ -1,0 +1,18 @@
+admin_azureiot
+/usr/lib/lua/luci/view/
+
+admin_azureiothub
+/usr/lib/lua/luci/model/cbi/
+
+azure/
+/
+
+azureiot
+/etc/config/
+
+azureiothub.lua
+/usr/lib/lua/luci/controller/admin/
+
+
+Connection String
+HostName=WizFiTestHub.azure-devices.net;DeviceId=WizFi630S;SharedAccessKey=nHxlWzS1mLsXA3Bk2X+RXBrU3hgiR+51s0miQBLqFA4=
